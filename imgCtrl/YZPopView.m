@@ -31,6 +31,7 @@
 
 - (void)getDetail {
     
+    
     UIColor *colorWhite = [UIColor colorWithWhite:0.4 alpha:0.5];
     self.backgroundColor = colorWhite;
     [self addBtn:@"Normal" rect:CGRectMake(kLabelWidth + kPadding, (kLabelHeight + kPadding) * 5, kLabelWidth, kLabelHeight)];
